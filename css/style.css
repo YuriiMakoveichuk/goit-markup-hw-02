@@ -1,8 +1,10 @@
 body {
     background-color: #FFF;
     color: #434455;
-    font-style: 16px;
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 li {
@@ -20,16 +22,17 @@ button {
 
 /* Header */
 .logo {
-    color: 2E2F42;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.logo-accent {
-    color: #4D5AE5;
+.logo-header {
+    color: #2E2F42;
 }
 
 .header-link {
@@ -45,9 +48,12 @@ button {
     color: #404BBF;
 }
 
+.contacts-address {
+    font-style: normal;
+}
+
 .contacts-link {
     color: #434455;
-    font-style: normal;
 }
 
 .contacts-link:hover {
@@ -67,11 +73,15 @@ button {
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
 }
 
 .button {
     background-color: #4D5AE5;
     color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover {
@@ -89,7 +99,7 @@ button {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
-
+    text-align: center;
 }
 
 .section-title-list {
@@ -105,6 +115,10 @@ button {
     background-color: #F4F4FD;
 }
 
+.section-team-card {
+    background-color: #FFFFFF;
+}
+
 /* Footer */
 
 .footer {
@@ -112,6 +126,6 @@ button {
     color: #F4F4FD;
 }
 
-.footer-logo {
+.logo-footer {
     color: #F4F4FD;
 }
